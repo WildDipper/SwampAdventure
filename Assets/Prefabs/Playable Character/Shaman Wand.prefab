@@ -48,7 +48,7 @@ MonoBehaviour:
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
   TimeBetweenUses: 1
-  TimeBetweenUsesReleaseInterruption: 1
+  TimeBetweenUsesReleaseInterruption: 0
   Interruptable: 0
   InitializeOnStart: 0
   MagazineBased: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
   MovementMultiplier: 0
   PreventHorizontalGroundMovementWhileInUse: 0
   PreventHorizontalAirMovementWhileInUse: 0
-  SetForceWhileInUse: 0
+  SetForceWhileInUse: 1
   ForceWhileInUse: {x: 0, y: 0}
   Animators: []
   EquippedAnimationParameter: 
