@@ -398,7 +398,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   NumberOfJumps: 2
-  JumpHeight: 3.025
+  JumpHeight: 5
   JumpRestrictions: 1
   ResetCameraOffsetOnJump: 0
   CanJumpDownOneWayPlatforms: 1
@@ -592,7 +592,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 8390255202172227392, guid: 939f3745006982a41b2ac53a3241c273,
+  InitialWeapon: {fileID: 3230301817131396221, guid: 43263a0ba75bca94b9d755d743d12d0c,
     type: 3}
   CanPickupWeapons: 1
   WeaponAttachment: {fileID: 0}
@@ -668,7 +668,7 @@ MonoBehaviour:
     - {x: 1, y: 0}
     - {x: -0.50000006, y: 0.8660254}
     - {x: -0.4999999, y: -0.86602545}
-  drawingEnabled: 0
+  drawingEnabled: 1
   drawingTranslucencyEnabled: 0
 --- !u!1 &7773909714098508838
 GameObject:
