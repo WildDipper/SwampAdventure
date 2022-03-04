@@ -23,7 +23,7 @@ TagManager:
   - OneWayPlatforms
   - Projectiles
   - Enemies
-  - 
+  - BloomMobileEffect
   - Ladders
   - PlayerProjectiles
   - MovingObjects
