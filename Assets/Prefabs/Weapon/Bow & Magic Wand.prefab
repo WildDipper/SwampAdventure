@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2381268460744153025}
   - component: {fileID: 3230301817131396221}
   - component: {fileID: 4118330800988195313}
+  - component: {fileID: 7522356817406831634}
   m_Layer: 0
   m_Name: Bow & Magic Wand
   m_TagString: Untagged
@@ -186,3 +187,22 @@ MonoBehaviour:
     type: 3}
   PoolSize: 20
   PoolCanExpand: 1
+--- !u!114 &7522356817406831634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3332115236107668640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50b4f370529e789408c0e4811f56c278, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentMana: 0
+  InitialMana: 100
+  MaximumMana: 100
+  WeaponManaConsumption: 10
+  ManaRecoveryDelay: 5
+  ManaRecoveryRate: 20
+  OutOfManaFeedbacks: {fileID: 0}

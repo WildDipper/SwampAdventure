@@ -38,7 +38,7 @@ TagManager:
   - MidHeightOneWayPlatforms
   - Pushables
   - Stairs
-  - 
+  - Front UI
   - 
   - 
   m_SortingLayers:
@@ -65,4 +65,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 3241408355
+    locked: 0
+  - name: Front  UI
+    uniqueID: 3910108729
     locked: 0

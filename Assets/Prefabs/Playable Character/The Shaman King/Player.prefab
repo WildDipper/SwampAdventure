@@ -5523,6 +5523,7 @@ GameObject:
   - component: {fileID: 2007812415521829812}
   - component: {fileID: 5889557713118492570}
   - component: {fileID: 2244198531854741096}
+  - component: {fileID: 6396864617345835659}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -6119,6 +6120,26 @@ MonoBehaviour:
   AutoAddItemsMainInventory: []
   AutoAddItemsHotbar: []
   AutoEquipWeapon: {fileID: 0}
+--- !u!114 &6396864617345835659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999482589975944371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11164c3aaf6aafc40b514039cc40bf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentStamina: 0
+  InitialStamina: 100
+  MaximumStamina: 100
+  RunningStaminaConsumption: 15
+  DashingStaminaConsumption: 20
+  StaminaRecoveryDelay: 5
+  StaminaRecoveryRate: 20
+  OutOfStaminaFeedbacks: {fileID: 0}
 --- !u!1 &2044057537254553599
 GameObject:
   m_ObjectHideFlags: 0
